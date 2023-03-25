@@ -16,7 +16,7 @@ function App() {
         <ScrollToTop />
         <Navbar />
         <Routes>
-          <Route path='/' exact component={Home} />
+          <Route path='/home' exact component={Home} />
           <Route path='/services' component={Services} />
           <Route path='/AuthPage' exact component={AuthPage} />
         </Routes>
